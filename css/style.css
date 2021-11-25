@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: 'Poppins', sans-serif;
+line-height: 2;
+}
+
+.intro-image {
+background-attachment: fixed;
+background-image: url('../img/Candle1.jpeg');
+height: 600px;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+background-position: bottom;
+}
+
+.intro-image__text a:hover {
+    transform: scale(1.1);    
+    }
+        
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    background-color: #5c564dab;
+    padding: 2rem;
+    color: #d8d2bd;
+    border: 2px solid #66766c7e;
+    transition: all 1s ease-in-out;
+    }
+        
+.btn:hover {
+transform: translateY(-5px);
+}
+    
+.btn:active {
+box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+transform: translateY(-5px);
+}
+
+.intro-text {
+height: 35vh;
+background-color: #dbbfb3;
+color: #555043;
+text-align: center;
+padding-top: 5rem;
+clip-path: polygon(36% 16%, 61% 16%, 100% 0, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0 0);
+margin-top: -5rem;
+}
+
+.intro-text__textbox h3 {
+font-size: 2rem;
+text-transform: uppercase;
+margin-bottom: 1rem;
+}
+
+.packaging-image {
+height: 600px;
+background-image: url('../img/Candle2.jpeg');
+background-size: cover;
+background-position: bottom;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.packaging-image__text a:hover {
+transform: scale(1.1);   
+}
+
+.packaging-text{
+background-color: #dbbfb3;
+text-align: center;
+padding-top: 5rem;
+margin-top: -5rem;
+height: 300px; 
+color: #555043;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0 15rem;
+}
+
+
+.packaging_text__textbox h3 {
+font-size: 2rem;
+text-transform: uppercase;
+margin-bottom: 1rem;
+}
+
+.tutorials-image {
+height: 600px;
+background-image: url('../img/Candle3.jpeg');
+background-size: cover;
+background-position: bottom;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+    
+.tutorials-image a:hover {
+transform: scale(1.1);   
+}
+
+.footer {
+height: 200px;
+text-align: center;
+color: #65535c;
+font-size: 1rem;
+padding: 2rem;
+}
+
+.footer ul li {
+display: inline-block;
+margin: 1rem;
+}
+
+.footer ul li a {
+text-decoration: none;
+color: #65535c;
+}
+
+.footer ul li:hover, .footer ul li a:hover {
+color: rgb(214, 81, 48);
+transform: scale(1.2);
+}
+
+
